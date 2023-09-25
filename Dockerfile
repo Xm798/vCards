@@ -45,7 +45,7 @@ RUN { \
   } > /etc/radicale/config
 
 RUN mkdir -p /app/radicale/collection-root/cn/ && \
-  cp -rf /app/vCards/radicale/ /app/radicale/collection-root/cn/
+  cp -rf /app/vCards/radicale/* /app/radicale/collection-root/cn/
 
 EXPOSE 5232
 
