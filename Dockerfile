@@ -1,50 +1,51 @@
-FROM node as builder
+FROM node:18-alpine
 
-COPY . /app
-WORKDIR /app
-RUN yarn && yarn radicale
+WORKDIR /app/
 
+RUN apk add --no-cache radicale git && \
+  rm -rf /var/cache/apk/* && \
+  git clone https://github.com/Xm798/vCards/ && \
+  cd vCards && \
+  yarn && \
+  yarn radicale
 
-FROM alpine
+WORKDIR /app/
 
-RUN apk add --no-cache \
-    radicale \
-  && rm -rf /var/cache/apk/* \
-  \
-  && { \
-    echo '[root]'; \
-    echo 'user: .+'; \
-    echo 'collection:'; \
-    echo 'permissions: R'; \
-    echo; \
-    echo '[principal]'; \
-    echo 'user: .+'; \
-    echo 'collection: {user}'; \
-    echo 'permissions: R'; \
-    echo; \
-    echo '[collections]'; \
-    echo 'user: .+'; \
-    echo 'collection: {user}/[^/]+'; \
-    echo 'permissions: rR'; \
+RUN { \
+  echo '[root]'; \
+  echo 'user: .+'; \
+  echo 'collection:'; \
+  echo 'permissions: R'; \
+  echo; \
+  echo '[principal]'; \
+  echo 'user: .+'; \
+  echo 'collection: {user}'; \
+  echo 'permissions: R'; \
+  echo; \
+  echo '[collections]'; \
+  echo 'user: .+'; \
+  echo 'collection: {user}/[^/]+'; \
+  echo 'permissions: rR'; \
   } > /etc/radicale/rights \
   \
   && { \
-    echo '[server]'; \
-    echo 'hosts = 0.0.0.0:5232, [::]:5232'; \
-    echo; \
-    echo '[web]'; \
-    echo 'type = none'; \
-    echo; \
-    echo '[storage]'; \
-    echo 'type = multifilesystem'; \
-    echo 'filesystem_folder = /app/vcards'; \
-    echo; \
-    echo '[rights]'; \
-    echo 'type = from_file'; \
-    echo 'file = /etc/radicale/rights'; \
+  echo '[server]'; \
+  echo 'hosts = 0.0.0.0:5232, [::]:5232'; \
+  echo; \
+  echo '[web]'; \
+  echo 'type = none'; \
+  echo; \
+  echo '[storage]'; \
+  echo 'type = multifilesystem'; \
+  echo 'filesystem_folder = /app/radicale'; \
+  echo; \
+  echo '[rights]'; \
+  echo 'type = from_file'; \
+  echo 'file = /etc/radicale/rights'; \
   } > /etc/radicale/config
 
-COPY --from=builder /app/radicale/ /app/vcards/collection-root/cn/
+RUN mkdir -p /app/radicale/collection-root/cn/ && \
+  cp -rf /app/vCards/radicale/ /app/radicale/collection-root/cn/
 
 EXPOSE 5232
 
