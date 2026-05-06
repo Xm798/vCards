@@ -4,57 +4,616 @@ basic:
     - 95558
     - 9555801
     - 955581101
-    - 4008895558
-    - 106980095558
-    - 106575580895558
-    - number: 4000895558
-      label: 信用卡电话营销服务专线
-    - number: 4006395558
-      label: 信用卡客服热线
-    - number: 4000395558
-      label: 信用卡客服热线
-    - number: 4000795558
-      label: 信用卡客服热线
-    - number: 4008888853
-      label: 信用卡客服热线
-    - number: 4008888871
-      label: 信用卡客服热线
-    - number: 4008195558
-      label: 信用卡客服热线
-    - number: 4001595558
-      label: 信用卡客服热线
-    - number: 4000995558
-      label: 信用卡客服热线
-    - number: 4006495558
-      label: 信用卡客服热线
-    - number: 4000495558
-      label: 信用卡客服热线
-    - number: 4008888857
-      label: 信用卡客服热线
-    - number: 4008888831
-      label: 信用卡客服热线
-    - number: 4008888891
-      label: 信用卡客服热线
-    - number: 4008595558
-      label: 信用卡客服热线
-    - number: 4001195558
-      label: 信用卡客服热线
-    - number: 4006695558
-      label: 信用卡客服热线
-    - number: 4000295558
-      label: 信用卡客服热线
-    - number: 4000595558
-      label: 信用卡客服热线
-    - number: 4008888843
-      label: 信用卡客服热线
-    - number: 4008888835
-      label: 信用卡客服热线
-    - number: 4008888892
-      label: 信用卡客服热线
-    - number: 4001395558
-      label: 信用卡客服热线
-    - number: 4007995558
-      label: 信用卡客服热线
+    - number: 0755-82380710
+      label: 信用卡白金热线
     - number: 4006095558
-      label: 信用卡白金贵宾专线
+      label: 信用卡白金热线
+    - number: 0755-82380730
+      label: 信用卡普金热线
+    - number: 4008895558
+      label: 信用卡普金热线
+    - number: 4000995558
+      label: 信用卡普金热线
+    - number: 4000695558
+      label: 信用卡普金热线
+    - number: 4000895558
+      label: 信用卡营销专线
+    - number: 4001295558
+      label: 信用卡营销专线
+    - number: 4001995558
+      label: 信用卡营销专线
+    - number: 4006695558
+      label: 信用卡营销专线
+    - number: 4006395558
+      label: 信用卡营销专线
+    - number: 4006495558
+      label: 信用卡营销专线
+    - number: 4000295558
+      label: 信用卡营销专线
+    - number: 4000395558
+      label: 信用卡营销专线
+    - number: 4000495558
+      label: 信用卡营销专线
+    - number: 4000595558
+      label: 信用卡营销专线
+    - number: 4000795558
+      label: 信用卡营销专线
+    - number: 4008888857
+      label: 信用卡营销专线
+    - number: 4008888843
+      label: 信用卡营销专线
+    - number: 4008888853
+      label: 信用卡营销专线
+    - number: 4008888831
+      label: 信用卡营销专线
+    - number: 4008888835
+      label: 信用卡营销专线
+    - number: 4008888871
+      label: 信用卡营销专线
+    - number: 4008888891
+      label: 信用卡营销专线
+    - number: 4008888892
+      label: 信用卡营销专线
+    - number: 4008195558
+      label: 信用卡营销专线
+    - number: 4008595558
+      label: 信用卡营销专线
+    - number: 4001395558
+      label: 信用卡营销专线
+    - number: 4001595558
+      label: 信用卡营销专线
+    - number: 4001195558
+      label: 信用卡营销专线
+    - number: 4007995558
+      label: 信用卡营销专线
+    - number: 4008888832
+      label: 信用卡营销专线
+    - number: 4008888837
+      label: 信用卡营销专线
+    - number: 4006195558
+      label: 信用卡营销专线
+    - number: 4006295558
+      label: 信用卡营销专线
+    - number: 4006995558
+      label: 信用卡营销专线
+    - number: 4008888824
+      label: 信用卡营销专线
+    - number: 4008888842
+      label: 信用卡营销专线
+    - number: 4006955588
+      label: 信用卡营销专线
+    - number: 4000663838
+      label: 信用卡营销专线
+    - number: 4000663939
+      label: 信用卡营销专线
+    - number: 4000666363
+      label: 信用卡营销专线
+    - number: 4000662929
+      label: 信用卡营销专线
+    - number: 4001695558
+      label: 信用卡营销专线
+    - number: 4001895558
+      label: 信用卡营销专线
+    - number: 075581586103
+      label: 信用卡营销专线
+    - number: 075581586104
+      label: 信用卡营销专线
+    - number: 075581586105
+      label: 信用卡营销专线
+    - number: 075581586115
+      label: 信用卡营销专线
+    - number: 075581586116
+      label: 信用卡营销专线
+    - number: 075581586117
+      label: 信用卡营销专线
+    - number: 075581586118
+      label: 信用卡营销专线
+    - number: 075581586119
+      label: 信用卡营销专线
+    - number: 075536336196
+      label: 信用卡营销专线
+    - number: 075536336198
+      label: 信用卡营销专线
+    - number: 075536336200
+      label: 信用卡营销专线
+    - number: 075536336206
+      label: 信用卡营销专线
+    - number: 075536568565
+      label: 信用卡营销专线
+    - number: 075536562623
+      label: 信用卡营销专线
+    - number: 075536555220
+      label: 信用卡营销专线
+    - number: 075536333521
+      label: 信用卡营销专线
+    - number: 075536566274
+      label: 信用卡营销专线
+    - number: 075536333247
+      label: 信用卡营销专线
+    - number: 106980095558
+      label: 信用卡短信端口
+    - number: 10655020095558
+      label: 信用卡短信端口
+    - number: 106575580895558
+      label: 信用卡短信端口
+    - number: 1065902095558
+      label: 信用卡短信端口
+    - number: 106903295558
+      label: 信用卡短信端口
+    - number: 1069033395558
+      label: 信用卡短信端口
+    - number: 106911395558
+      label: 信用卡短信端口
+    - number: 106912095558
+      label: 信用卡短信端口
+    - number: 10691839195558
+      label: 信用卡短信端口
+    - number: 1069066195558
+      label: 信用卡短信端口
+    - number: 1069069895558
+      label: 信用卡短信端口
+    - number: 106907795558
+      label: 信用卡短信端口
+    - number: 1069088595558
+      label: 信用卡短信端口
+    - number: 1069091095558
+      label: 信用卡短信端口
+    - number: 10691139795558
+      label: 信用卡短信端口
+    - number: 1069219595558
+      label: 信用卡短信端口
+    - number: 1069401995558
+      label: 信用卡短信端口
+    - number: 1063000995558
+      label: 信用卡短信端口
+    - number: 1063009795558
+      label: 信用卡短信端口
+    - number: 1063028995558
+      label: 信用卡短信端口
+    - number: 1063055595558
+      label: 信用卡短信端口
+    - number: 1063059595558
+      label: 信用卡短信端口
+    - number: 1063096595558
+      label: 信用卡短信端口
+    - number: 1068009895558
+      label: 信用卡短信端口
+    - number: 1068014095558
+      label: 信用卡短信端口
+    - number: 1068054595558
+      label: 信用卡短信端口
+    - number: 1068071895558
+      label: 信用卡短信端口
+    - number: 1068102595558
+      label: 信用卡短信端口
+    - number: 1068116595558
+      label: 信用卡短信端口
+    - number: 1068116895558
+      label: 信用卡短信端口
+    - number: 1068203695558
+      label: 信用卡短信端口
+    - number: 1068207095558
+      label: 信用卡短信端口
+    - number: 1068278695558
+      label: 信用卡短信端口
+    - number: 1068407095558
+      label: 信用卡短信端口
+    - number: 1068420895558
+      label: 信用卡短信端口
+    - number: 1068506495558
+      label: 信用卡短信端口
+    - number: 1068509595558
+      label: 信用卡短信端口
+    - number: 1068579595558
+      label: 信用卡短信端口
+    - number: 1069003695558
+      label: 信用卡短信端口
+    - number: 1069009595558
+      label: 信用卡短信端口
+    - number: 1069015495558
+      label: 信用卡短信端口
+    - number: 1069067995558
+      label: 信用卡短信端口
+    - number: 1069092895558
+      label: 信用卡短信端口
+    - number: 1069162295558
+      label: 信用卡短信端口
+    - number: 1069192195558
+      label: 信用卡短信端口
+    - number: 1069213195558
+      label: 信用卡短信端口
+    - number: 1069241795558
+      label: 信用卡短信端口
+    - number: 1069291595558
+      label: 信用卡短信端口
+    - number: 1069298295558
+      label: 信用卡短信端口
+    - number: 1069395895558
+      label: 信用卡短信端口
+    - number: 1069499295558
+      label: 信用卡短信端口
+    - number: 1063009721883
+      label: 信用卡短信端口
+    - number: 1063028921884
+      label: 信用卡短信端口
+    - number: 1063059521883
+      label: 信用卡短信端口
+    - number: 1063097321883
+      label: 信用卡短信端口
+    - number: "10655885006721883"
+      label: 信用卡短信端口
+    - number: 1068054521882
+      label: 信用卡短信端口
+    - number: 1068407021883
+      label: 信用卡短信端口
+    - number: 1068407021884
+      label: 信用卡短信端口
+    - number: 1068509521884
+      label: 信用卡短信端口
+    - number: 1068528821882
+      label: 信用卡短信端口
+    - number: 1068579521883
+      label: 信用卡短信端口
+    - number: 1069003621882
+      label: 信用卡短信端口
+    - number: 1069015421883
+      label: 信用卡短信端口
+    - number: 1069015421884
+      label: 信用卡短信端口
+    - number: 1069395821882
+      label: 信用卡短信端口
+    - number: 1069499221884
+      label: 信用卡短信端口
+    - number: "10655020085695558"
+      label: 信用卡短信端口
+    - number: 1065502086195558
+      label: 信用卡短信端口
+    - number: 1065750595558
+      label: 信用卡短信端口
+    - number: 1065902020295558
+      label: 信用卡短信端口
+    - number: 1065750295558
+      label: 信用卡短信端口
+    - number: 1069113295558
+      label: 信用卡短信端口
+    - number: 1068084195558
+      label: 信用卡短信端口
+    - number: 1068176695558
+      label: 信用卡短信端口
+    - number: 1068261395558
+      label: 信用卡短信端口
+    - number: 1068432295558
+      label: 信用卡短信端口
+    - number: 1068507195558
+      label: 信用卡短信端口
+    - number: 1068572695558
+      label: 信用卡短信端口
+    - number: 1068746295558
+      label: 信用卡短信端口
+    - number: 1068774395558
+      label: 信用卡短信端口
+    - number: 1069120695558
+      label: 信用卡短信端口
+    - number: 1069139295558
+      label: 信用卡短信端口
+    - number: 1069365895558
+      label: 信用卡短信端口
+    - number: 1069381695558
+      label: 信用卡短信端口
+    - number: 10680195558
+      label: 信用卡短信端口
+    - number: 1068301995558
+      label: 信用卡短信端口
+    - number: 106907995558
+      label: 信用卡短信端口
+    - number: 1068051695558
+      label: 信用卡短信端口
+    - number: 1069188395558
+      label: 信用卡短信端口
+    - number: 1069106595558
+      label: 信用卡短信端口
+    - number: 1068501995558
+      label: 信用卡短信端口
+    - number: 1069227895558
+      label: 信用卡短信端口
+    - number: 1069075595558
+      label: 信用卡短信端口
+    - number: 1068009821882
+      label: 信用卡短信端口
+    - number: 1068116821883
+      label: 信用卡短信端口
+    - number: 1068207021882
+      label: 信用卡短信端口
+    - number: 1068261321882
+      label: 信用卡短信端口
+    - number: 1068261321883
+      label: 信用卡短信端口
+    - number: 1068261321884
+      label: 信用卡短信端口
+    - number: 1068381621882
+      label: 信用卡短信端口
+    - number: 1068432221882
+      label: 信用卡短信端口
+    - number: 1068432221883
+      label: 信用卡短信端口
+    - number: 1068432221884
+      label: 信用卡短信端口
+    - number: 1068746221882
+      label: 信用卡短信端口
+    - number: 1068746221883
+      label: 信用卡短信端口
+    - number: 1068746221884
+      label: 信用卡短信端口
+    - number: 1068774321882
+      label: 信用卡短信端口
+    - number: 1068774321883
+      label: 信用卡短信端口
+    - number: 1068774321884
+      label: 信用卡短信端口
+    - number: 1069120621882
+      label: 信用卡短信端口
+    - number: 1069139221884
+      label: 信用卡短信端口
+    - number: 1069162221883
+      label: 信用卡短信端口
+    - number: 1069241721884
+      label: 信用卡短信端口
+    - number: 1069015421882
+      label: 信用卡短信端口
+    - number: 1069009521882
+      label: 信用卡短信端口
+    - number: 1068572621882
+      label: 信用卡短信端口
+    - number: 1069003679721882
+      label: 信用卡短信端口
+    - number: 1069003621883
+      label: 信用卡短信端口
+    - number: 1068207021883
+      label: 信用卡短信端口
+    - number: 1069499221883
+      label: 信用卡短信端口
+    - number: 1068509521883
+      label: 信用卡短信端口
+    - number: 1069395821883
+      label: 信用卡短信端口
+    - number: 1068054521883
+      label: 信用卡短信端口
+    - number: 1068528821883
+      label: 信用卡短信端口
+    - number: 1068572621883
+      label: 信用卡短信端口
+    - number: 1063028921883
+      label: 信用卡短信端口
+    - number: 1068116821884
+      label: 信用卡短信端口
+    - number: 1068009821884
+      label: 信用卡短信端口
+    - number: 1069092821884
+      label: 信用卡短信端口
+    - number: 1063055521884
+      label: 信用卡短信端口
+    - number: 1069003621884
+      label: 信用卡短信端口
+    - number: 1069395821884
+      label: 信用卡短信端口
+    - number: 1068207021884
+      label: 信用卡短信端口
+    - number: 1063097321884
+      label: 信用卡短信端口
+    - number: 1068579521884
+      label: 信用卡短信端口
+    - number: 1068518895558
+      label: 信用卡短信端口
+    - number: 1068307295558
+      label: 信用卡短信端口
+    - number: 1068430295558
+      label: 信用卡短信端口
+    - number: 1068166895558
+      label: 信用卡短信端口
+    - number: 1068604395558
+      label: 信用卡短信端口
+    - number: 1068662195558
+      label: 信用卡短信端口
+    - number: 106823232695558
+      label: 信用卡短信端口
+    - number: 1068332795558
+      label: 信用卡短信端口
+    - number: 10683519195558
+      label: 信用卡短信端口
+    - number: 106919695558
+      label: 信用卡短信端口
+    - number: 1068351995558
+      label: 信用卡短信端口
+    - number: 106850195558
+      label: 信用卡短信端口
+    - number: 1069087995558
+      label: 信用卡短信端口
+    - number: 10690879395558
+      label: 信用卡短信端口
+    - number: 10691139495558
+      label: 信用卡短信端口
+    - number: 10690879595558
+      label: 信用卡短信端口
+    - number: 10681295595558
+      label: 信用卡短信端口
+    - number: 10691238695558
+      label: 信用卡短信端口
+    - number: 10691205495558
+      label: 信用卡短信端口
+    - number: 10691758395558
+      label: 信用卡短信端口
+    - number: 10692193895558
+      label: 信用卡短信端口
+    - number: 1069138695558
+      label: 信用卡短信端口
+    - number: 10691139595558
+      label: 信用卡短信端口
+    - number: 10691883295558
+      label: 信用卡短信端口
+    - number: 10680516295558
+      label: 信用卡短信端口
+    - number: 10681295495558
+      label: 信用卡短信端口
+    - number: 10691238595558
+      label: 信用卡短信端口
+    - number: 10691205395558
+      label: 信用卡短信端口
+    - number: 10691758295558
+      label: 信用卡短信端口
+    - number: 10692193795558
+      label: 信用卡短信端口
+    - number: 10691386295558
+      label: 信用卡短信端口
+    - number: 106907791695558
+      label: 信用卡短信端口
+    - number: 10681295395558
+      label: 信用卡短信端口
+    - number: 10691238495558
+      label: 信用卡短信端口
+    - number: 10691205295558
+      label: 信用卡短信端口
+    - number: 10691758195558
+      label: 信用卡短信端口
+    - number: 10692193695558
+      label: 信用卡短信端口
+    - number: 10691386195558
+      label: 信用卡短信端口
+    - number: 1068681195558
+      label: 信用卡短信端口
+    - number: 1068528895558
+      label: 信用卡短信端口
+    - number: 1068683595558
+      label: 信用卡短信端口
+    - number: 1068793295558
+      label: 信用卡短信端口
+    - number: 10685795558
+      label: 信用卡短信端口
+    - number: 1068509521882
+      label: 信用卡短信端口
+    - number: 1069092821882
+      label: 信用卡短信端口
+    - number: 1069092821883
+      label: 信用卡短信端口
+    - number: 1069291521882
+      label: 信用卡短信端口
+    - number: 1069291521883
+      label: 信用卡短信端口
+    - number: 1069291521884
+      label: 信用卡短信端口
+    - number: 1068009821883
+      label: 信用卡短信端口
+    - number: 106851153721882
+      label: 信用卡短信端口
+    - number: 106851153721883
+      label: 信用卡短信端口
+    - number: 106851153721884
+      label: 信用卡短信端口
+    - number: 1068614121882
+      label: 信用卡短信端口
+    - number: 1068614121883
+      label: 信用卡短信端口
+    - number: 1068614121884
+      label: 信用卡短信端口
+    - number: 1069120621883
+      label: 信用卡短信端口
+    - number: 1068407021882
+      label: 信用卡短信端口
+    - number: 10690698595558
+      label: 信用卡短信端口
+    - number: 10690750995558
+      label: 信用卡短信端口
+    - number: 10691068595558
+      label: 信用卡短信端口
+    - number: 1069052895558
+      label: 信用卡短信端口
+    - number: 10692195558
+      label: 信用卡短信端口
+    - number: 1068129595558
+      label: 信用卡短信端口
+    - number: 106908795558
+      label: 信用卡短信端口
+    - number: 1069115495558
+      label: 信用卡短信端口
+    - number: 1069075095558
+      label: 信用卡短信端口
+    - number: 1068317395558
+      label: 信用卡短信端口
+    - number: 1069179595558
+      label: 信用卡短信端口
+    - number: 10691218795558
+      label: 信用卡短信端口
+    - number: 10691839095558
+      label: 信用卡短信端口
+    - number: 10680516195558
+      label: 信用卡短信端口
+    - number: 106907791595558
+      label: 信用卡短信端口
+    - number: 10691883195558
+      label: 信用卡短信端口
+    - number: 10691073395558
+      label: 信用卡短信端口
+    - number: 10691897395558
+      label: 信用卡短信端口
+    - number: 10690329395558
+      label: 信用卡短信端口
+    - number: 10690709395558
+      label: 信用卡短信端口
+    - number: 10690333795558
+      label: 信用卡短信端口
+    - number: 10694211395558
+      label: 信用卡短信端口
+    - number: 10690896395558
+      label: 信用卡短信端口
+    - number: 10690738395558
+      label: 信用卡短信端口
+    - number: 10690910395558
+      label: 信用卡短信端口
+    - number: 10692306395558
+      label: 信用卡短信端口
+    - number: 10691209895558
+      label: 信用卡短信端口
+    - number: 10690333695558
+      label: 信用卡短信端口
+    - number: 106912181395558
+      label: 信用卡短信端口
+    - number: 1069073895558
+      label: 信用卡短信端口
+    - number: 1069139095558
+      label: 信用卡短信端口
+    - number: 1069579521882
+      label: 信用卡短信端口
+    - number: 1069579521883
+      label: 信用卡短信端口
+    - number: 1069579521884
+      label: 信用卡短信端口
+    - number: 1068604321882
+      label: 信用卡短信端口
+    - number: 1069009521883
+      label: 信用卡短信端口
+    - number: 1069009521884
+      label: 信用卡短信端口
+    - number: 10691622921883
+      label: 信用卡短信端口
+    - number: 10691622921884
+      label: 信用卡短信端口
+    - number: 10691622921882
+      label: 信用卡短信端口
+    - number: 1069196995558
+      label: 信用卡短信端口
+    - number: 10691969195558
+      label: 信用卡短信端口
+    - number: 10691159195558
+      label: 信用卡短信端口
+    - number: 10691068395558
+      label: 信用卡短信端口
+    - number: 10690780295558
+      label: 信用卡短信端口
+    - number: 10685019595558
+      label: 信用卡短信端口
+    - number: 10690528895558
+      label: 信用卡短信端口
+    - number: 10692853195558
+      label: 信用卡短信端口
+    - number: 10694121295558
+      label: 信用卡短信端口
   url: https://www.citicbank.com/
