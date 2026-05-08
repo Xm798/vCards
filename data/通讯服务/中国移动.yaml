@@ -20,4 +20,10 @@ basic:
     - 10088
     - number: 10658112
       label: 移动来电管家
+    - number: 12530
+      label: 彩铃服务
+    - number: 1253011
+      label: 彩铃服务
+    - number: +86 (10) 6588 3001
+      label: 彩铃服务
   url: https://www.10086.cn/
