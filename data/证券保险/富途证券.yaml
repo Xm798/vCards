@@ -2,4 +2,9 @@ basic:
   organization: 富途证券
   cellPhone:
     - 400-870-1818
+  workEmail:
+    - email: no_reply@stmt.futuhk.com
+      label: 账单通知
+    - email: no_reply@notification.futuhk.com
+      label: 通知
   url: https://www.futunn.com/
