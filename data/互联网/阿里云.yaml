@@ -7,4 +7,6 @@ basic:
       label: 系统通知
     - email: monitor@monitor.aliyun.com
       label: 监控通知
+    - email: newsletter@newsletter.aliyun.com
+      label: 新闻通知
   url: https://www.aliyun.com/
