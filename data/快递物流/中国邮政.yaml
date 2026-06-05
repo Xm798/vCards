@@ -3,4 +3,6 @@ basic:
   cellPhone:
     - 11183
     - 11185
+    - number: 95013183
+      label: EMS 外呼电话
   url: https://www.chinapost.com.cn/
