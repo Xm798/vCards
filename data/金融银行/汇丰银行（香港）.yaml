@@ -9,6 +9,8 @@ basic:
       label: 卓越理财客户
     - number: +852 22333000
       label: 其他客户
+    - number: 10690333171360
+      label: 短信端口
   workEmail:
     - HSBC_CNP@notification.hsbc.com.hk
     - HSBC@notification.hsbc.com.hk
