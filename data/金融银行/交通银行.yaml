@@ -18,6 +18,20 @@ basic:
       label: 征信异议受理热线
     - number: 4008095559
       label: 外呼营销号码
+    - number: 10692889888
+      label: 信用卡短信端口
+    - number: 106929829888
+      label: 信用卡短信端口
+    - number: 10691299888
+      label: 信用卡短信端口
+    - number: 106928895559
+      label: 信用卡短信端口
+    - number: 106937795559
+      label: 信用卡短信端口
+    - number: 1069329095559
+      label: 信用卡短信端口
+    - number: 106913595559
+      label: 信用卡短信端口
   workEmail:
     - pccc@bocomcc.com
   url: https://www.bankcomm.com/
