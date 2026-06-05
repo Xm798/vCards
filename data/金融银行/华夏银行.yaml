@@ -4,5 +4,6 @@ basic:
     - 95577
     - 4006695577
     - 952077
-    - 106902895577
+    - number: 106902895577
+      label: 短信端口
   url: https://www.hxb.com.cn/

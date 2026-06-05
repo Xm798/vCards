@@ -4,7 +4,8 @@ basic:
     - number: 95508
       label: 信用卡专线
     - 020-95508
-    - 106980095508
+    - number: 106980095508
+      label: 短信端口
     - number: 4008308003
       label: 客服热线
     - number: 4008295508
@@ -22,5 +23,21 @@ basic:
     - number: 4006295508
       label: 信用卡外呼电话
     - number: 4006395508
+      label: 信用卡外呼电话
+    - number: 10195508
+      label: 信用卡外呼电话
+    - number: 4001395508
+      label: 信用卡外呼电话
+    - number: 4001595508
+      label: 信用卡外呼电话
+    - number: 4006095508
+      label: 信用卡外呼电话
+    - number: 4006195508
+      label: 信用卡外呼电话
+    - number: 4007895508
+      label: 信用卡外呼电话
+    - number: 4009095508
+      label: 信用卡外呼电话
+    - number: 4009195508
       label: 信用卡外呼电话
   url: https://www.cgbchina.com.cn/
