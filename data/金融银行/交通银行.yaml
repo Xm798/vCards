@@ -18,6 +18,8 @@ basic:
       label: 征信异议受理热线
     - number: 4008095559
       label: 外呼营销号码
+    - number: 4001695559
+      label: 外呼营销号码
     - number: 10692889888
       label: 信用卡短信端口
     - number: 106929829888
