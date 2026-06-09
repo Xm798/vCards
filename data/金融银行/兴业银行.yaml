@@ -5,4 +5,6 @@ basic:
     - 021-95561
     - number: 4008895561
       label: 贵宾专线
+    - number: 106980095561
+      label: 短信端口
   url: https://www.cib.com.cn/
