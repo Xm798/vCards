@@ -29,4 +29,6 @@ basic:
       label: 彩铃服务
     - number: 10658999
       label: 积分商城
+    - number: 10086660
+      label: 全球通短信端口
   url: https://www.10086.cn/
