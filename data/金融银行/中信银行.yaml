@@ -2,13 +2,15 @@ basic:
   organization: 中信银行
   cellPhone:
     - 95558
-    - number: 9555801
-      label: 信用卡短信端口
-    - number: 955581101
-      label: 信用卡短信端口
     - 4008895558
-    - number: 4000895558
-      label: 信用卡电话营销服务专线
+    - number: 4006095558
+      label: 信用卡白金贵宾专线
+    - number: 0755-82380710
+      label: 信用卡白金热线
+    - number: 0755-82380730
+      label: 信用卡普金热线
+    - number: 4000695558
+      label: 信用卡普金热线
     - number: 4006395558
       label: 信用卡客服热线
     - number: 4000395558
@@ -55,14 +57,8 @@ basic:
       label: 信用卡客服热线
     - number: 4007995558
       label: 信用卡客服热线
-    - number: 4006095558
-      label: 信用卡白金贵宾专线
-    - number: 0755-82380710
-      label: 信用卡白金热线
-    - number: 0755-82380730
-      label: 信用卡普金热线
-    - number: 4000695558
-      label: 信用卡普金热线
+    - number: 4000895558
+      label: 信用卡电话营销服务专线
     - number: 4001295558
       label: 信用卡电话营销服务专线
     - number: 4001995558
@@ -131,6 +127,10 @@ basic:
       label: 信用卡电话营销服务专线
     - number: 0755-36333247
       label: 信用卡电话营销服务专线
+    - number: 9555801
+      label: 信用卡短信端口
+    - number: 955581101
+      label: 信用卡短信端口
     - number: 106980095558
       label: 信用卡短信端口
     - number: 10655020095558
