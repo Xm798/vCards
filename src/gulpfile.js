@@ -1,6 +1,5 @@
 import fs from 'fs'
 import path from 'path'
-import { deleteAsync } from 'del'
 import through2 from 'through2'
 
 import gulp from 'gulp'
@@ -11,7 +10,7 @@ import concatFolders from 'gulp-concat-folders'
 
 import plugin_vcard from './plugins/vcard.js'
 import plugin_vcard_ext from './plugins/vcard-ext.js'
-import yaml from 'js-yaml'
+import { load } from 'js-yaml'
 
 const generator = () => {
   return gulp.src('data/*/*.yaml')
@@ -52,17 +51,15 @@ const allinone = () => {
     .pipe(gulp.dest('./temp/汇总'))
 }
 
-const clean = () => {
-  return deleteAsync([
-    'public',
-    'temp'
-  ])
+const removeDirs = (...dirs) =>
+  dirs.forEach(dir => fs.rmSync(dir, { recursive: true, force: true }))
+
+const clean = async () => {
+  removeDirs('public', 'temp')
 }
 
-const cleanWeb = () => {
-  return deleteAsync([
-    'public-web'
-  ])
+const cleanWeb = async () => {
+  removeDirs('public-web')
 }
 
 // 网页版本构建任务
@@ -76,7 +73,7 @@ const webBuild = async () => {
     
     for (const filePath of yamlFiles) {
       const content = fs.readFileSync(filePath, 'utf8')
-      const data = yaml.load(content)
+      const data = load(content)
       
       if (data && data.basic) {
         const fileName = path.basename(filePath, '.yaml')
@@ -232,10 +229,8 @@ const createRadicale = () => {
   return gulp.src('temp/**', {})
 }
 
-const cleanRadicale = () => {
-  return deleteAsync([
-    'radicale'
-  ], {force: true})
+const cleanRadicale = async () => {
+  removeDirs('radicale')
 }
 
 const distRadicale = () => {
