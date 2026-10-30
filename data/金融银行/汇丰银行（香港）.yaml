@@ -10,6 +10,7 @@ basic:
     - number: 10690333171360
       label: 短信端口
   workEmail:
+    - donotreply@notification.hsbc.com.hk
     - HSBC_CNP@notification.hsbc.com.hk
     - HSBC@notification.hsbc.com.hk
     - HSBC.estatement.and.eadvice@notification.hsbc.com.hk
