@@ -12,7 +12,8 @@ const toE164 = (value: string | number): string => {
 const phoneSchema = z
   .union([z.string(), z.number()])
   .transform(toE164)
-  .pipe(z.e164());
+  // 106 开头的短信端口号可长达 14 位以上，补 +86 后超出 E.164 的 15 位上限
+  .pipe(z.union([z.e164(), z.string().regex(/^\+86106\d+$/)]));
 
 const phoneEntrySchema = z.object({
   number: phoneSchema,
